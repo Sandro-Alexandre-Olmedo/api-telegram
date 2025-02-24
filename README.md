@@ -13,7 +13,7 @@
 <p> Na 3ª etapa AWS Athena(etapa de consulta e geração de insights) são gerados consultas SQL em tabelas que possuem os dados que foram tratados do Bucket S3(enriquecido).</p>
 <p> Tudo isso permite a automatização de um sistema que possibilita a geração de valor e controle de qualidade de atendimento a usuários e clientes de várias empresas mundo afora!</p>
 <p> Imagine grandes empresas onde megabytes, gigabytes ou até mesmo terabytes  de dados são gerados diarimente em sistemas de atendimento, sendo assim, somente um projeto como esse poderia lidar com tantos dados e ser capas de gerar valor e insights relevantes para a tomada de decisões importantes que alavanquem ainda mais os negócios empresariais e de outros setores!</p>
-<p> Além do mais é importante destacar que a AWS é uma das empresas possuí os serviços mais baratos e robustos no que tange ao armazenamento e consumo de dados!</p>
+<p> Além do mais é importante destacar que a AWS é uma das empresas que possuí os serviços mais baratos e robustos no que tange ao armazenamento e consumo de dados!</p>
 
 
 
