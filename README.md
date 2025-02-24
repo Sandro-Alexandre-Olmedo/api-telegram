@@ -2,7 +2,7 @@
 
 ## Architecture
 
-<p align="center"><img src="image/architecture.png"></p>
+<p align="center"><img src="image/map api telegram.png"></p>
 
 
 ## Tools used
