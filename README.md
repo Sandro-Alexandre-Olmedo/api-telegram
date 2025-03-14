@@ -6,7 +6,7 @@
 
 <h1>Como funciona este projeto ?</h1>
 
-<p> No chatbot é onde estão os dados transacionais gerados no grupo do Telegram para atendimento aos usuários e clientes de uma empresas fictícia; </p>
+<p> No chatbot é onde estão os dados transacionais gerados no grupo do Telegram para atendimento aos usuários e clientes de uma empresa fictícia; </p>
 <p> Na 1ª etapa de ingestão os dados crus saem do Bot e passam pela AWS API Gateway através de uma url; </p>
 <p> Posteriormente uma função da AWS Lambda processa esses dados crus no formato JSON e armazena-os nesse mesmo formato em um AWS Bucket S3(cru); </p>
 <p> Já na 2ª etapa ETL outra função Lambda capta os dados crus transforma-os em dados enriquecidos e armazena-os em outro Bucket S3(enriquecido)  `parquet`, no entanto, antes disso todos os dias é acionado um Event Bridge que verifica se existem novos dados crus no Bucket S3(cru) , se houver refaz toda a etapa de ETL novamente e armazena os novos dados no Bucket S3(enriquecido); </p>
